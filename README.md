@@ -21,6 +21,14 @@ We could find the churn group only played less than 18 songs usually, non churn 
 ##### How to predict the churn users? What is accuracy of the model on test set?
 We used RandomForest,LogisticRegression,DecisionTree as classifiers, finally LogisticRegression had been chosen according to highest F1-score, so far the accuracy is 0.70 on test data set.
 
+### Jupyter
+
+For detail analysis, please refer to Sparkify.ipynb.
+
+### Flask Web App
+
+A a Flask web application has been integrated in this project, please follow the instructions below to start a local instance.
+
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
