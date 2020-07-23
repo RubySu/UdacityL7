@@ -42,22 +42,22 @@ A a Flask web application has been integrated in this project, please follow the
 
 3. Go to http://0.0.0.0:3001/
 
-- app
-| - template
-| |- master.html  # main page of web app with distribution of churn users by level
-| |- report.html  # report file for distribution of churn users by page
-|- run.py  # Flask file that runs app
-
-- data
-|- f_coef.csv  # prediction result evaluation 
-|- level_churn_byUser.csv  # subset of churn users by level for visualization
-|- page_churn_byUser.csv # subset of churn users by page for visualization
-|- mini_sparkify_event_data.json # data to be process
-|- process_data.py # data process file
-|- user_item.csv   # user item matrix after data process
-
-- models
-|- rf # saved RandomForest model
-|- lr # saved LinearRegression model
-|- dt # saved DecisionTree model
-|- model_training.py  # train and save models
+- app  
+| - template  
+| |- master.html  # main page of web app with distribution of churn users by level  
+| |- report.html  # report file for distribution of churn users by page  
+|- run.py  # Flask file that runs app  
+  
+- data  
+|- f_coef.csv  # prediction result evaluation  
+|- level_churn_byUser.csv  # subset of churn users by level for visualization  
+|- page_churn_byUser.csv # subset of churn users by page for visualization  
+|- mini_sparkify_event_data.json # data to be process  
+|- process_data.py # data process file  
+|- user_item.csv   # user item matrix after data process  
+  
+- models  
+|- rf # saved RandomForest model  
+|- lr # saved LinearRegression model  
+|- dt # saved DecisionTree model  
+|- model_training.py  # train and save models  
